@@ -1,0 +1,34 @@
+{
+Reason: {
+  text: "The vulnerability is caused by",
+  types: [
+    R1: "improper input validation",
+    R2: "unauthorized access to the resource",
+    R3: "lack of  authentication",
+    R4: "software is out of date",
+    R5: "lack of protection from automated threats",
+    R6: "insecure configuration",
+    R7: "using weak secrets",
+    R8: "an issue in the business logic"
+  ]
+},
+Impact: {
+  text: "As a result, an attacker can",
+  types: [
+    I1: "obtain an access to the data",
+    I2: "disrupt the system",
+    I3: "perform actions on behalf of the victim",
+    I4: "execute arbitrary code",
+    I5: "escalate privileges"
+  ]
+},
+"Fix": {
+  text: "To address the vulnerability you should",
+  types: [
+    F1: "apply the filtration function",
+    F2: "restrict access to the resource",
+    F3: "update the software to current version",
+    F4: "secure the configuration"
+  ]
+}
+}
